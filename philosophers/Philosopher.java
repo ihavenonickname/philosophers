@@ -8,7 +8,7 @@ class Philosopher {
 
 	private ForkStatus forkStatus = ForkStatus.NOT_IN_USE;
 	private Philosopher neighbour;
-	private String name;
+	private String name; 
 
 	public Philosopher(String name) {
 		this.name = name;

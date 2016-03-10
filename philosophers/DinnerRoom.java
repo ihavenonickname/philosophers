@@ -5,7 +5,7 @@ import java.util.ArrayList;
 class DinnerRoom {
 	public void startDinner() throws Exception {
 		ArrayList<Philosopher> ps = new ArrayList<Philosopher>();
-
+ 
 		ps.add(new Philosopher("Kant"));
 		ps.add(new Philosopher("Hegel"));
 		ps.add(new Philosopher("Nietzsche"));

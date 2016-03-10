@@ -6,6 +6,6 @@ public class Main {
 			new DinnerRoom().startDinner();
 		} catch(Exception ex) {
 			System.exit(1);
-		}
+		} 
 	}
 }
