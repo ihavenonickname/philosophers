@@ -2,7 +2,7 @@
 
 Implementation of dining philosophers problem.
 
-I wanted to use Golang but my Parallel Programming professor likes Java more.
+I wanted to use Golang but my Parallel Programming professor prefers Java ` ¯\_(ツ)_/¯ `
 
 ### Abstração do algoritmo
 
