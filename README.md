@@ -29,3 +29,11 @@ Perceba que não é feita verificação nenhuma para quando tenta-se marcar o ga
 A classe `DinnerRoom` instancia os filósofos, inicia cada um eles em uma thread separada e acopla essas threads à thread atual, para evitar que o programa termine abruptamente antes dos filósofos terminarem de jantar. A classe `Philosopger` implementa a interface Runnable do Java para facilitar a criação da thread.
 
 As demais contruções dentro do package `philosophers.logic` são para a implementação de dois [observer pattern](https://en.wikipedia.org/wiki/Observer_pattern), os quais se fizeram necessários uma vez que utilizei uma abordagem orientada a eventos.
+
+### Compilando e executando
+
+Para compilar
+`javac philosophers/*.java philosophers/logic/*.java philosophers/ui/*.java`
+
+Para executar
+`java philosophers.Main`
